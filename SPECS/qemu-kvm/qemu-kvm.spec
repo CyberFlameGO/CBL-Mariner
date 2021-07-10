@@ -118,7 +118,7 @@ This package provides a command line tool for manipulating disk images.
 %patch35 -p1
 %patch36 -p1
 %patch37 -p1
-%patch39 -p1
+#%patch39 -p1
 
 # Remove invalid flag exposed by binutils 2.36.1
 sed -i "/LDFLAGS_NOPIE/d" configure
